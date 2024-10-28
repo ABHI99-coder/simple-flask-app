@@ -41,4 +41,4 @@ jobs:
 
       - name: Update Kubernetes deployment
         run: |
-          kubectl apply -f flask-app.yaml
+          kubectl apply -f flask-app.yml

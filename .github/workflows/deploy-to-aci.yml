@@ -38,7 +38,7 @@ jobs:
           --name flask-app \
           --image ${{ secrets.DOCKER_IMAGE_NAME }}:latest \
           --cpu 1 --memory 1 \
-          --registry-login-server docker.io \
+          --registry-login-server hub.docker.com \
           --registry-username ${{ secrets.DOCKER_USERNAME }} \
           --registry-password ${{ secrets.DOCKER_PASSWORD }} \
           --ports 80
